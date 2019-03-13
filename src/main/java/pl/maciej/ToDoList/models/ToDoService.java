@@ -14,7 +14,11 @@ public class ToDoService {
         list.add(task);
     }
 
-    public List<String> getAllContacts() {
+    public List<String> getAllTasks() {
         return list;
+    }
+
+    public void deleteTask(int task){
+        list.remove(task);
     }
 }
